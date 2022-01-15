@@ -35,4 +35,4 @@ def Jcompiled():
 def Jproduces_correct_output():
     """Java code produces correct output for sample input"""
     check50.run(
-        "java salesTax ").stdin("100").stdin(".30").stdin("0.24").stdout("100 0.3 0.24 130 31.2 161.2").exit(0)
+        "java salesTax ").stdin("100").stdin(".30").stdin("0.24").stdout("100.0 0.3 0.24 130.0 31.2 161.2").exit(0)

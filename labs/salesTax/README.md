@@ -20,7 +20,7 @@ The program then outputs:
 
 ## Program Tasks in C++
 
-Open `salesTax.cpp` in the editor in the main function:
+Open `salesTax.cpp` in the editor and in the main function:
 
 * Define the following floating-point variables:
     * originalPrice
@@ -46,7 +46,7 @@ Open `salesTax.cpp` in the editor in the main function:
 
 ### Compile and test C++ code
 
-* To compile execute: `g++ salestax.cpp -o salesTax` in your terminal.
+* To compile execute: `g++ salesTax.cpp -o salesTax` in your terminal.
 * To run your program execute: `./salesTax` in your terminal.
 
 Use the following data to check your results:
@@ -61,7 +61,7 @@ The output should be:
 
 ## Program Tasks in Java
 
-Open `salesTax.java` in the editor in the main function:
+Open `salesTax.java` in the editor and in the main method:
 
 * Define the following floating-point variables:
     * originalPrice

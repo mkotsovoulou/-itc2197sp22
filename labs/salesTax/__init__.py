@@ -16,5 +16,5 @@ def compiled():
 def produces_correct_output():
     """produces correct output for sample input"""
     check50.run(
-        "./salesTax ").stdin("100").stdin(".20").stdin("0.24").stdout("100 0.3 0.24 130 31.2 161.2").exit(0)
+        "./salesTax ").stdin("100").stdin(".30").stdin("0.24").stdout("100 0.3 0.24 130 31.2 161.2").exit(0)
 

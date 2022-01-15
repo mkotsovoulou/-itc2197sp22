@@ -6,14 +6,14 @@ lab50:
 
   files:
     - !exclude "*"
-    - !include "trivia.html"
-    - !include "styles.css"
+    - !include "salesTax.cpp"
+    - !include "salesTax.java"
 
 check50: 
   files: &check50_files
-    - !require "trivia.html"
-    - !require "styles.css"
+    - !require "salesTax.cpp"
+    - !require "salesTax.java"
 
 submit50: 
   files: *check50_files
-  style: false
+  style: true

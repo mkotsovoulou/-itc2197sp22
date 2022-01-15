@@ -9,12 +9,12 @@ def exists():
 @check50.check(exists)
 def compiles():
     """salesTax.cpp compiles."""
-    check50.c.compile("salesTax.cpp", lcs50=True)
+    check50.run("g++ salesTax.cpp -o salesTax").exit(0)
 
 
 @check50.check(compiles)
 def produces_correct_output():
     """produces correct output for sample input"""
     check50.run(
-        "./salesTax").stdin("100").stdin(".20").stdin("0.24").stdout("100 0.30 0.24 130 31.2 161.2").exit(0)
+        "./salesTax ").stdin("100").stdin(".20").stdin("0.24").stdout("100 0.3 0.24 130 31.2 161.2").exit(0)
 

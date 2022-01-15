@@ -30,7 +30,10 @@ Open `salesTax.cpp` in the editor in the main function:
     * salesTax 
     * finalPrice 
 
-* Promp the user to provide input for all variables.
+* Prompt the user to provide input for: 
+    * originalPrice and read, 
+    * markupPCT and read,
+    * taxPCT and read.
 
 * Calculate 
     * sellingPrice as (originalPrice * (1+markupPCT))
@@ -41,7 +44,7 @@ Open `salesTax.cpp` in the editor in the main function:
 
 {% next %}
 
-### Compile and test c++ code
+### Compile and test C++ code
 
 * To compile execute: `g++ salestax.cpp -o salesTax` in your terminal.
 * To run your program execute: `./salesTax` in your terminal.
@@ -68,7 +71,10 @@ Open `salesTax.java` in the editor in the main function:
     * salesTax 
     * finalPrice 
 
-* Promp the user to provide input for all variables.
+* Prompt the user to provide input for: 
+    * originalPrice and read, 
+    * markupPCT and read,
+    * taxPCT and read.
 
 * Calculate 
     * sellingPrice as (originalPrice * (1+markupPCT))

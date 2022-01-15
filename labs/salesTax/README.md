@@ -112,7 +112,13 @@ Execute the command below, logging in with your `GitHub username` and `Personal 
 
 If you do not have generated a Personal Access ToKen follow the instructions: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
+## You can check before submitting!
 
+```
+check50 mkotsovoulou/itc2197sp22/main/labs/salesTax
+```
+
+## Submit
 ```
 submit50 mkotsovoulou/itc2197sp22/main/labs/salesTax
 ```

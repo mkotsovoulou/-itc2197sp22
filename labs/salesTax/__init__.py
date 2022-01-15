@@ -7,12 +7,12 @@ def exists():
     check50.exists("salesTax.cpp")
 
 @check50.check(exists)
-def compiles():
-    """salesTax.cpp compiles."""
-    check50.run("g++ salesTax.cpp -o salesTax").exit(0)
+def compiled():
+   """salesTax executable is generated"""
+   check50.exists("salesTax")
 
 
-@check50.check(compiles)
+@check50.check(compiled)
 def produces_correct_output():
     """produces correct output for sample input"""
     check50.run(

@@ -1,0 +1,25 @@
+lab50:
+  window:   
+    - editor
+    - readme
+    - terminal
+
+  files:
+    - !exclude "*"
+    - !include "Staff.h"
+    - !include "Staff.cpp"
+    - !include "testStaff.cpp"
+    - !include "Staff.java"
+    - !include "testStaff.java"
+
+check50: 
+  files: &check50_files
+    - !require "Staff.h"
+    - !require "Staff.cpp"
+    - !require "testStaff.cpp"
+    - !require "Staff.java"
+    - !require "testStaff.java"
+
+submit50: 
+  files: *check50_files
+  style: true

@@ -28,7 +28,7 @@ def Ccompiled():
 def Cproduces_correct_output():
     """C++ code produces correct output for sample input"""
     check50.run(
-        "./testStaff ").stdout("Maira Kotsovoulou IT").exit(0)
+        "./testStaff ").stdout("Maira Kotsovoulou, IT").exit(0)
 
 
 @check50.check()
@@ -47,4 +47,4 @@ def Jcompiled():
 def Jproduces_correct_output():
     """Java code produces correct output for sample input"""
     check50.run(
-        "java testStaff ").stdout("Maira Kotsovoulou IT").exit(0)
+        "java testStaff ").stdout("Maira Kotsovoulou, IT").exit(0)
